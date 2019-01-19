@@ -18,6 +18,8 @@ const styles = {
   fetching: store.program.fetching,
   error: store.program.error,
 }))
+
+
 export default class Progam extends React.Component {
   static propTypes = {
     station: PropTypes.object,

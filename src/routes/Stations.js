@@ -18,6 +18,7 @@ const styles = {
 @connect(store => ({
   station: store.station,
 }))
+  
 export default class Stations extends React.Component {
   static propTypes = {
     station: PropTypes.object,

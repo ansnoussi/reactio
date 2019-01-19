@@ -12,7 +12,7 @@ export default [
   {
     shortName: 'oe3',
     name: 'Hitradio Ö3',
-    streamurl: 'http://mp3stream7.apasf.apa.at:8000/;',
+    streamurl: 'http://radio.mosaiquefm.net:8000/mosalive',
     tracklist: 'http://oe3meta.orf.at/oe3mdata/WebPlayerFiles/PlayList400.json',
     curProgram: 'http://tube.orf.at/broadcastSchedule/currentBroadcast.jsonp?scheme=sendungsplan-oe3.xml',
     website: 'http://oe3.orf.at/',

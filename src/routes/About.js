@@ -22,15 +22,22 @@ export default class About extends React.Component {
       <h1>About</h1>
       <Paper style={styles.container}>
         <p>
-          Developer: Paul Em<br/>
-          Contact: info@paulem.eu<br/>
+          Développeur: SNOUSSI Anis<br/>
+          Contact: snoussi.anis@insat.u-carthage.tn<br/>
           Version: {this.state.version}
         </p>
-        <h2>Rechtliche Information</h2>
+        <h2>Informations légales</h2>
         <p>
-          Dieses Programm ist kein offizielles Program des Österreichischen Rundfunks.
-          Alle Services zu dieser Radio Station können
-          unter der offiziellen Website abgerufen werden.
+          Ce progarmme n'est pas un programme officiel des societés de la radiodiffusion.
+          Tous les services de cette station de radio peuvent être récupérés sur les sites
+          officiels.
+        </p>
+        <h2>Liens</h2>
+        <p>
+          My Github repo: <a href="https://github.com/ansnoussi/reactio">here</a>
+        </p>
+        <p>
+          Forked Github repo:  <a href="https://github.com/paul-em/ractio">here</a>
         </p>
       </Paper>
     </div>;

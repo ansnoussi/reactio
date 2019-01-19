@@ -14,6 +14,7 @@ import PlaylistIcon from 'material-ui/svg-icons/av/playlist-play';
 import RadioIcon from 'material-ui/svg-icons/av/radio';
 import SettingsIcon from 'material-ui/svg-icons/action/settings';
 import InfoIcon from 'material-ui/svg-icons/action/info';
+
 import Program from './routes/Program';
 import Stations from './routes/Stations';
 import Settings from './routes/Settings';
@@ -52,13 +53,13 @@ const routes = [
   },
   {
     link: '/stations',
-    title: 'Sender',
+    title: 'Stations',
     component: Stations,
     icon: <RadioIcon/>,
   },
   {
     link: '/settings',
-    title: 'Einstellungen',
+    title: 'Settings',
     component: Settings,
     icon: <SettingsIcon/>,
   },
@@ -76,6 +77,7 @@ const routes = [
   theme: store.theme,
   dark: store.settings.dark,
 }))
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);

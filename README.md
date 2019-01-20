@@ -1,4 +1,4 @@
-# ractio
+# reactio
 A simple radio player built with React.js - the clean commits provide a step by step setup guide
 
 ## [Setup git project](https://github.com/paul-em/ractio/commit/06a31438aa5dfedaee9082de84a938790f0f8a2f)

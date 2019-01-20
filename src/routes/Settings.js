@@ -34,7 +34,7 @@ export default class Settings extends React.Component {
       <h1>Einstellungen</h1>
       <Paper style={styles.container}>
         <Checkbox style={styles.checkbox}
-                  label="Dunkler Modus"
+                  label="Dark Mode"
                   checked={this.props.settings.dark}
                   onCheck={(e, value) => this.changeSettings('dark', value)}/>
       </Paper>

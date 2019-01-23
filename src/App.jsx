@@ -144,7 +144,6 @@ export default class App extends React.Component {
       <Router>
         <div>
           <MediaBar station={this.props.station}
-                    broadcast={this.props.broadcast}
                     theme={this.props.theme}
                     onLeftIconButtonTouchTap={() => this.toggleDrawer()}
                     height={headerHeight}

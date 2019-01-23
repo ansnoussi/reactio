@@ -34,10 +34,11 @@ export default class About extends React.Component {
         </p>
         <h2>Liens</h2>
         <p>
-          My Github repo: <a href="https://github.com/ansnoussi/reactio">here</a>
+          My Github repo: <a href="https://github.com/ansnoussi/reactio">lien vers Github</a>
         </p>
         <p>
-          Forked Github repo:  <a href="https://github.com/paul-em/ractio">here</a>
+          Forked repo by: Paul Em <br/>
+          Forked Github repo:  <a href="https://github.com/paul-em/ractio">lien vers Github</a>
         </p>
       </Paper>
     </div>;

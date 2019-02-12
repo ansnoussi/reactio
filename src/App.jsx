@@ -47,7 +47,7 @@ const routes = [
   {
     link: '/',
     exact: true,
-    title: 'Programm',
+    title: 'Programme',
     component: Program,
     icon: <PlaylistIcon/>,
   },

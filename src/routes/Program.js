@@ -37,7 +37,7 @@ export default class Progam extends React.Component {
 
   render() {
     return <div>
-        <p>song auto-detection goes here ! </p>
+        <p>song auto-detection goes here !  </p>
     </div>;
   }
 }

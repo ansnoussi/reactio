@@ -1,6 +1,10 @@
 # reactio
 A simple radio player built with React.js - the clean commits provide a step by step setup guide
 
+
+![Alt Text](https://i.imgur.com/JMHK4d0.png)
+
+
 ## [Setup git project](https://github.com/paul-em/ractio/commit/06a31438aa5dfedaee9082de84a938790f0f8a2f)
 
 Webstorm creates a folder called .idea to keep track of settings. We don't want to have these files in our repo
